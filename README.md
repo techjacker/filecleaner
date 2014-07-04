@@ -30,3 +30,12 @@ Removed: 420 kb
 Remaining: 328 kb
 Deleted: 8 files
 ```
+
+
+
+Find biggest files in dir + add to file removal regex
+-----------------------------------------------------
+
+```shell
+find . -type f -size +1M -exec du {} \; | sort -n
+```

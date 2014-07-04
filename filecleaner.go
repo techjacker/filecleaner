@@ -10,7 +10,7 @@ import (
 /*--------------------------------------
 VARS
 ---------------------------------------*/
-var fileTypesRegex string = ".(png|css|jpg|JPG|gif|GIF|doc|DOC|pdf|PDF|mov|mp4|mpg|wmv|3gp|swf|SWF|eot|svg|ttf|woff)$"
+var fileTypesRegex string = ".(png|css|jpg|JPG|gif|GIF|doc|DOC|pdf|PDF|mov|mp4|mpg|wmv|webm|psd|m4v|jar|3gp|swf|SWF|eot|svg|ttf|woff|mp3)$"
 var reporter = Reporter{removed: 0, remaining: 0, initial: 0}
 
 /*--------------------------------------
