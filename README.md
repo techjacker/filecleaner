@@ -32,6 +32,14 @@ Deleted: 8 files
 ```
 
 
+Tests
+-----------------------------------------------------
+
+```shell
+go test
+```
+
+
 
 Find biggest files in dir + add to file removal regex
 -----------------------------------------------------
